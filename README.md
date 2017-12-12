@@ -1,7 +1,7 @@
 # Function timeout
 
-For killing python long running tasks when alarm syngal won't help.
-Decorator allows you to kill process max in 15 seconds after timeout expires. 
+For killing python long running functions, when alarm syngal won't help.
+Decorator allows you to kill process max in 15 seconds, after timeout expires. 
 Such big time conditioned by the fact that decorator doing some tries to terminate process gracefully, before killing it with SIGKILL.
 
 Usage 
